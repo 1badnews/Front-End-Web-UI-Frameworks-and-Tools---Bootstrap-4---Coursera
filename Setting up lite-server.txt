@@ -1,0 +1,12 @@
+cd to git directory
+
+run npm init
+
+run npm install lite-server --save-dev
+
+in the json file, under "scripts" add:
+"start":"npm run lite",
+"test"...,
+"lite":"lite-server"
+
+under git directory, run npm start
